@@ -23,27 +23,21 @@ const BackgroundParticles = () =>{
                   init={particlesInit}
                   loaded={particlesLoaded}
                   options={{
-                    background: {
-                      color: '#181818',
-                    },
                     particles:{
-                      number:{
-                        value:100
-                      },
-                      line_linked:{
-                        enable:true
-                      },
+                     number:{
+                      value:100
+                     },
+                     color:{
+                      value:"#181818"
+                     },
                       move:{
                         enable:true
-                      },
-    
-                      
+                      }
                     },
                     interactivity:{
                       events:{
                         onhover:{
                           enable:true,
-                          mode: ["grab" , "bubble"]
                         }
                       }
                     }

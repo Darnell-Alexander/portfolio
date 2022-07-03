@@ -1,0 +1,37 @@
+
+.menu{
+    width: 100%;
+    background-color: #282828;
+    position: relative;
+    z-index: 100
+    ;
+}
+
+.nav{
+    padding-top:3%;
+    font-size: 1vw;
+    width: 45%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+    a{
+        text-shadow: 0px 0px 5px black;
+        color:white;
+        width: 100%;
+        padding: 1%;
+        text-decoration: none;
+        text-align: center;
+        
+        &:hover{
+            transition-duration: 0.5s;
+            color: #282828;
+            background-color: white;
+            text-shadow: none;
+        }
+    }
+}
+.active{
+        background-color: white;
+        text-shadow: 5px 5px 0px black;
+        }

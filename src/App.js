@@ -1,9 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
-import BackgroundParticles from './particles';
-function App() {
+import Layout from './components/Layout';
+import { Routes , Route } from 'react-router-dom';
+import Landing from './components/Landing';
+
+
+
+
+const App = ()=> {
   return (
-    <BackgroundParticles />
+    <Routes>
+      <Route path="/" element={<Layout />} >
+        <Route index element={<Landing />} />
+      </Route>
+    </Routes>
   );
 }
 
