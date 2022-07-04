@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0ed80b28.css",
-    "main.js": "/portfolio/static/js/main.35d91bcf.js",
+    "main.css": "/portfolio/static/css/main.127bc0a0.css",
+    "main.js": "/portfolio/static/js/main.cf0a9338.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/pexels-johannes-plenio-1445324.jpg": "/portfolio/static/media/pexels-johannes-plenio-1445324.a1fc9b8e43248e2c2ce7.jpg",
     "static/media/hexadot.png": "/portfolio/static/media/hexadot.8d792684ba0efa375eb1.png",
     "static/media/fredstarandfamily.png": "/portfolio/static/media/fredstarandfamily.edec24dbdb9e77aa6574.png",
     "static/media/lovemaryreed.png": "/portfolio/static/media/lovemaryreed.8c8d44d327baaa2e9950.png",
@@ -15,12 +16,12 @@
     "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/portfolio/index.html",
-    "main.0ed80b28.css.map": "/portfolio/static/css/main.0ed80b28.css.map",
-    "main.35d91bcf.js.map": "/portfolio/static/js/main.35d91bcf.js.map",
+    "main.127bc0a0.css.map": "/portfolio/static/css/main.127bc0a0.css.map",
+    "main.cf0a9338.js.map": "/portfolio/static/js/main.cf0a9338.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ed80b28.css",
-    "static/js/main.35d91bcf.js"
+    "static/css/main.127bc0a0.css",
+    "static/js/main.cf0a9338.js"
   ]
 }
