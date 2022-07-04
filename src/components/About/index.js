@@ -11,6 +11,7 @@ import node from '../../Images/Icons/nodejs.png'
 const About =()=>{
     return(
         <div className="about-container">
+            <Sum />
             <Skills />
         </div>
     )
@@ -37,9 +38,7 @@ const Sum =()=>{
 const Skills =()=>{
     return(
         <div className="skills-container">
-            <div className='top'>
-                <h1>Skills</h1>
-            </div>
+           
             <div className="hard-skills">
                 <div className='row'>
                     <i><img src={css}  alt='CSS3'/></i>
@@ -53,9 +52,32 @@ const Skills =()=>{
                 </div>
             </div>
             <div className="soft-skills">
-
+                <div className='left'>
+                    <Bar l='Communication' w='100%' />
+                    <Bar l='Troubleshooting' w='75%' />
+                    <Bar l='Problem Solving' w='85%' />
+                    <Bar l='Detailed Oriented' w='90%' />
+                </div>
+                <div className='right'>
+                    <Bar l='Communication' w='100%' />
+                    <Bar l='Troubleshooting' w='75%' />
+                    <Bar l='Problem Solving' w='85%' />
+                    <Bar l='Detailed Oriented' w='90%' />
+                </div>
             </div>
         </div>
+    )
+}
+
+const Bar =(props)=>{
+    return(
+        <>
+        <p className='label'>{props.l}</p>
+        <div className='bar-border'>
+            <span className='bar' style={{'width':props.w}}/>
+        </div>
+        </>
+        
     )
 }
 
