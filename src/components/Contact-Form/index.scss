@@ -6,7 +6,6 @@
     display: flex;
     justify-content: center;
     .form-container{
-        border: solid #181818;
         width: 40%;
         height: 82vh;
         background-color: rgba(245, 245, 245, 0.224);
@@ -19,8 +18,8 @@
     .rightbox-container{
         width: 40%;
         height: 82vh;
-        border: solid #181818;
-    
+        border: 0.1px solid #181818;
+        border-left:none;
     }
 }
 
