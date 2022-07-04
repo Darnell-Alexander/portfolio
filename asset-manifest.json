@@ -1,15 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.31d6cfe0.css",
-    "main.js": "/portfolio/static/js/main.6f456f44.js",
+    "main.css": "/portfolio/static/css/main.0ed80b28.css",
+    "main.js": "/portfolio/static/js/main.b6d2b25d.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/hexadot.png": "/portfolio/static/media/hexadot.8d792684ba0efa375eb1.png",
+    "static/media/fredstarandfamily.png": "/portfolio/static/media/fredstarandfamily.edec24dbdb9e77aa6574.png",
+    "static/media/lovemaryreed.png": "/portfolio/static/media/lovemaryreed.8c8d44d327baaa2e9950.png",
+    "static/media/react.png": "/portfolio/static/media/react.35639ed930462bfcd544.png",
+    "static/media/nodejs.png": "/portfolio/static/media/nodejs.007e99f68b718e476aba.png",
+    "static/media/database.png": "/portfolio/static/media/database.8fa35626f701ea317473.png",
+    "static/media/html.png": "/portfolio/static/media/html.6e930594286d8afe4c79.png",
+    "static/media/css.png": "/portfolio/static/media/css.d2811e5969760ef58072.png",
+    "static/media/ux-interface.png": "/portfolio/static/media/ux-interface.ea3ecbf6acbd5e6ad26d.png",
+    "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/portfolio/index.html",
-    "main.6f456f44.js.map": "/portfolio/static/js/main.6f456f44.js.map",
+    "main.0ed80b28.css.map": "/portfolio/static/css/main.0ed80b28.css.map",
+    "main.b6d2b25d.js.map": "/portfolio/static/js/main.b6d2b25d.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.6f456f44.js"
+    "static/css/main.0ed80b28.css",
+    "static/js/main.b6d2b25d.js"
   ]
 }
