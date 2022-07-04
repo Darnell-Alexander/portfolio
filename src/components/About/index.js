@@ -53,16 +53,16 @@ const Skills =()=>{
             </div>
             <div className="soft-skills">
                 <div className='left'>
-                    <Bar l='Communication' w='100%'  />
-                    <Bar l='Troubleshooting' w='75%'/>
-                    <Bar l='Problem Solving' w='85%' />
-                    <Bar l='Detailed Oriented' w='90%' />
+                    <Bar l='Communication' w='100%'  d={0.5}/>
+                    <Bar l='Troubleshooting' w='75%' d={0.8}/>
+                    <Bar l='Problem Solving' w='85%' d={1.1} />
+                    <Bar l='Detailed Oriented' w='90%' d={1.4} />
                 </div>
                 <div className='right'>
-                    <Bar l='Communication' w='100%'/>
-                    <Bar l='Troubleshooting' w='75%'/>
-                    <Bar l='Problem Solving' w='85%' />
-                    <Bar l='Detailed Oriented' w='90%'/>
+                    <Bar l='Communication' w='100%' d={0.6}/>
+                    <Bar l='Troubleshooting' w='75%' d={0.9}/>
+                    <Bar l='Problem Solving' w='85%' d={1.2}/>
+                    <Bar l='Detailed Oriented' w='90%' d={1.5}/>
                 </div>
             </div>
         </div>
@@ -74,7 +74,7 @@ const Bar =(props)=>{
         <div className='bar-object'>
             <p className='label'>{props.l}</p>
             <div className='bar-border'>
-                <motion.span animate={{width:props.w}} transition={{type:'spring' , duration:2}} className='bar' />
+                <motion.span animate={{width:props.w}} transition={{type:'spring' , duration:2 ,delay:props.d}} className='bar' />
             </div>
         </div>
         
