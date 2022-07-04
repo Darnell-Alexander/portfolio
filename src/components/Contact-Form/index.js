@@ -5,6 +5,7 @@ const ContactForm = () =>{
         <div className='page-container'>
            
             <Form />
+            <RightBox />
         </div>
     )
 }
@@ -31,9 +32,17 @@ const Form =()=>{
             <textArea className='message' placeholder='how can I help? Please include the best way to reach you.' name='message'/>
             <input className='submit-btn' value='Send' type='submit' />
         </form>
+        
     )
 }
 
+const RightBox =()=>{
+    return(
+        <div className='rightbox-container'>
+
+        </div>
+    )
+}
 
 const Input = (props)=>{
     return(

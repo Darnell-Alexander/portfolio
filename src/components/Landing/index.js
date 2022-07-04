@@ -2,7 +2,7 @@ import BackgroundParticles from "../Particles/particles"
 import './index.scss'
 import PastWork from "../Past-Work"
 import About from "../About"
-
+import ContactForm from "../Contact-Form"
 function Landing() {
     return(
         <div className='landing-page-container'>
@@ -10,6 +10,8 @@ function Landing() {
             <About />
             <h1 className="headers">Projects</h1>
             <PastWork />
+            <h1 className="headers">Get In Contact</h1>
+            <ContactForm />
         </div>
     )
 }
