@@ -8,6 +8,7 @@ const PastWork =()=>{
    return(
         <>
         <div className='pw-container' >
+            <h1 >FUN THINGS COMING SOON</h1>
         </div>
         </>
     )

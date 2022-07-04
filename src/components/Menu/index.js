@@ -9,13 +9,13 @@ const Menu =()=>{
                 <NavLink exact='true' activeclassname="active" to='/'>
                     <h1>HOME</h1>
                 </NavLink>
-                <NavLink activeclassname="active" to='/about'>
+                <NavLink activeclassname="active" to='about'>
                     <h1>ABOUT</h1>
                 </NavLink>
-                <NavLink activeClassName="active" to='home'>
+                <NavLink activeClassName="active" to='contact'>
                     <h1>CONTACT</h1>
                 </NavLink>
-                <NavLink activeClassName="active" to='home'>
+                <NavLink activeClassName="active" to='projects'>
                     <h1>PROJECTS</h1>
                 </NavLink>
             </div>
