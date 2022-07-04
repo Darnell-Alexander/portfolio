@@ -49,7 +49,7 @@ const BackgroundParticles = () =>{
                       events:{
                         onhover:{
                           enable:true,
-                          mode:'grab'
+                          mode:['grab' , 'repulse']
                         }
                       }
                     }
