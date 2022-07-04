@@ -1,7 +1,7 @@
 import React from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-
+import './index.scss'
 
 const BackgroundParticles = () =>{
      const particlesInit = async (main) => {
@@ -16,7 +16,7 @@ const BackgroundParticles = () =>{
           };
        
           return (
-            <div className="App">
+            <div className="canvas">
            
              <Particles
                   id="tsparticles"
@@ -25,19 +25,31 @@ const BackgroundParticles = () =>{
                   options={{
                     particles:{
                      number:{
-                      value:100
+                      value:150
                      },
-                     color:{
-                      value:"#181818"
-                     },
-                      move:{
+                     opacity:{
+                      random:true,
+                      anim:{
                         enable:true
                       }
+                     },
+                     color:{
+                      value:"#fff"
+                     },
+                     move:{
+                        enable:true
+                      },
+                      line_linked:{
+                        enable:true
+
+                      }
                     },
+                    
                     interactivity:{
                       events:{
                         onhover:{
                           enable:true,
+                          mode:'grab'
                         }
                       }
                     }

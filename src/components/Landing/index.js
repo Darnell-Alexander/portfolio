@@ -1,10 +1,12 @@
-import BackgroundParticles from "../../particles"
+import BackgroundParticles from "../Particles/particles"
 import './index.scss'
 import PastWork from "../Past-Work"
+import About from "../About"
 function Landing() {
     return(
         <div className='landing-page-container'>
-           <PastWork />
+            <BackgroundParticles/>
+            <About />
         </div>
     )
 }
