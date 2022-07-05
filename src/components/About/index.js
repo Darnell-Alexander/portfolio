@@ -59,10 +59,10 @@ const Skills =()=>{
                     <Bar l='Detailed Oriented' w='90%' d={1.4} />
                 </div>
                 <div className='right'>
-                    <Bar l='Communication' w='100%' d={0.6}/>
-                    <Bar l='Troubleshooting' w='75%' d={0.9}/>
-                    <Bar l='Problem Solving' w='85%' d={1.2}/>
-                    <Bar l='Detailed Oriented' w='90%' d={1.5}/>
+                    <Bar l='Team Work' w='100%' d={0.6}/>
+                    <Bar l='Time Management' w='75%' d={0.9}/>
+                    <Bar l='Patient' w='85%' d={1.2}/>
+                    <Bar l='Creative Thinker' w='90%' d={1.5}/>
                 </div>
             </div>
         </div>
