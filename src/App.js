@@ -6,10 +6,16 @@ import Landing from './components/Landing';
 import About from './components/About'
 import PastWork from './components/Past-Work';
 import ContactForm from './components/Contact-Form';
-
+import { Helmet } from 'react-helmet';
 
 const App = ()=> {
   return (
+    <>
+    <Helmet>
+                <meta charSet="utf-8" />
+                <title>Darnell T. Alexander</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+    </Helmet>
     <Routes>
       <Route path="/" element={<Layout />} >
         <Route index element={<Landing />} />
@@ -18,6 +24,8 @@ const App = ()=> {
         <Route path='/contact' element={<ContactForm />} />
       </Route>
     </Routes>
+    </>
+    
   );
 }
 
