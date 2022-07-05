@@ -11,19 +11,22 @@ const BackgroundParticles = () =>{
             await loadFull(main);
           };
          
+          const particlesLoaded = (container) => {
+            console.log(container);
+          };
        
           return (
-            <div className="canvas">
+            <div className="canvas2">
            
              <Particles
-                  id="tsparticles"
+                  id="tsparticle"
                   init={particlesInit}
+                  loaded={particlesLoaded}
                   options={{
                     particles:{
                      number:{
-                      value:50
+                      value:150
                      },
-                     fpslimit:30,
                      opacity:{
                       random:true,
                       anim:{
@@ -31,14 +34,13 @@ const BackgroundParticles = () =>{
                       }
                      },
                      color:{
-                      value:"#fff"
+                      value:"#181818"
                      },
                      move:{
                         enable:true
                       },
                       line_linked:{
-                        enable:true,
-                        distance:300
+                        enable:true
 
                       }
                     },
