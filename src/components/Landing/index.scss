@@ -1,7 +1,4 @@
 
-
-
-
 .component-container{
 
     width: 100%;
@@ -64,4 +61,28 @@
     color: white;
     
    }
+}
+
+@media(max-width:600px){
+    .menu{
+        display: none;
+    }
+    .banner{
+        height: 25vh;
+    }
+    .pw-container{
+        display: none;
+    }
+    .contact-container{
+        height:25vh
+    }
+    .form-container{
+        max-height: 25vh;
+        textarea{
+            height: 50%;
+        }
+    }
+    .rightbox-container{
+        display: none;
+    }
 }

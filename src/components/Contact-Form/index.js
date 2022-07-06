@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com'
 import BackgroundParticles from '../Particles/particles2'
 const ContactForm = () =>{
     return(
-        <div className='page-container'>
+        <div className='contact-container'>
            
             <Form />
             <RightBox />
