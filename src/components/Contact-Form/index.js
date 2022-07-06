@@ -30,7 +30,7 @@ const Form =()=>{
             <Input l="Phone" v='phone' t='tel' p='enter your number' />
             <Input className='subject' v='subject' l="Subject"  t='textarea' p="What's this about? "/>
             <label><h1>Message</h1></label>
-            <textArea className='message' placeholder='how can I help? Please include the best way to reach you.' name='message'/>
+            <textArea className='message' placeholder='how can I help? Please include the best way to reach you.' name='message' required/>
             <input className='submit-btn' value='Send' type='submit' />
         </form>
         
@@ -49,7 +49,7 @@ const Input = (props)=>{
     return(
         <div className='input-field'>
             <h1>{props.l}</h1>
-            <input name ={props.v} type={props.t} />
+            <input name ={props.v} type={props.t}  required/>
         </div>
     )
 }
