@@ -19,7 +19,7 @@ const BackgroundParticles = () =>{
             <div className="canvas2">
            
              <Particles
-                  id="tsparticle"
+                  id="tsparticles"
                   init={particlesInit}
                   loaded={particlesLoaded}
                   options={{

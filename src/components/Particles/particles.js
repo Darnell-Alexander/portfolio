@@ -21,7 +21,7 @@ const BackgroundParticles = () =>{
                   options={{
                     particles:{
                      number:{
-                      value:50
+                      value:70
                      },
                      fpslimit:30,
                      opacity:{
@@ -38,7 +38,7 @@ const BackgroundParticles = () =>{
                       },
                       line_linked:{
                         enable:true,
-                        distance:300
+                        distance:200
 
                       }
                     },

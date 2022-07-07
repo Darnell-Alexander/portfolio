@@ -1,5 +1,6 @@
 import './index.scss'
 import emailjs from 'emailjs-com'
+import { motion } from 'framer-motion'
 import BackgroundParticles from '../Particles/particles2'
 const ContactForm = () =>{
     return(
@@ -8,6 +9,9 @@ const ContactForm = () =>{
             <Form />
             <RightBox />
         </div>
+
+
+
     )
 }
 const Form =()=>{
@@ -23,7 +27,8 @@ const Form =()=>{
           e.target.reset()
     }
     return(
-        <form className='form-container' onSubmit={sendEmail}>
+        <form
+        className='form-container' onSubmit={sendEmail}>
             <label><h1>Contact Form</h1></label>
             <Input l="FullName" v='name'  t='text' p='enter your name' />
             <Input l="E-Mail" v='email' t='email' p='enter your E-Mail' />
@@ -40,7 +45,8 @@ const Form =()=>{
 const RightBox =()=>{
     return(
         <div className='rightbox-container'>
-            
+            <h1> I am always interested in projects or oppertunities especially longterm. </h1>
+           
         </div>
     )
 }
